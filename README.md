@@ -13,7 +13,7 @@ Raúl Heredia Horcajo:
 ## :open_book:Tabla de contenido
 
 - [FASE 1](#fase-1)
-    - [Descripcion de la aplicacion web](#descripcion-de-la-aplicacion-web)
+    - [Descripción de la aplicación web](#descripción-de-la-aplicación-web)
     - [Funcionalidades](#funcionalidades)
     - [Entidades](#entidades)
     - [Funcionalidades del servicio interno](#funcionalidades-del-servicio-interno)
@@ -21,7 +21,7 @@ Raúl Heredia Horcajo:
 
 ## FASE 1
 
-### Descripcion de la aplicacion web
+### Descripción de la aplicación web
 `StreetSneakers` es una aplicación web de consulta :newspaper: y venta online :shopping_cart: de las mejores zapatillas :athletic_shoe: del mercado.
 
 ### Funcionalidades
@@ -51,11 +51,11 @@ cuentas del sistema.
 ```
 ### Funcionalidades del servicio interno
 ```
--Envio de correo electronico al usuario tras registrarse y al realizar un pedido.
+-Envío de correo electrónico al usuario tras registrarse y al realizar un pedido.
 
--Generación de una factura del pedido realizado por el usuario en PDF.
+-Generación de una factura del pedido realizado por el usuario en formato PDF.
 
--Chat entre todos los suuarios del sistema.
+-Chat entre todos los usuarios del sistema.
 ```
 ## Licencia
 Este proyecto está bajo la licencia `Apache License 2.0`. Mira el archivo [LICENSE.md](LICENSE.md) para más detalles.
