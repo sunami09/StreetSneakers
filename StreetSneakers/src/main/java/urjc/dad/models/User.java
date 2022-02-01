@@ -1,9 +1,12 @@
 package urjc.dad.models;
 
+import java.util.Set;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class User {
@@ -17,7 +20,8 @@ public class User {
 	private String phone;
 	private String address;
 	private String bankAccount;
-	//private Set<Order> orders;
+	@OneToMany
+	private Set<Order> orders;
 	
 	public User() {
 	}
@@ -102,7 +106,13 @@ public class User {
 	public void setBankAccount(String bankAccount) {
 		this.bankAccount = bankAccount;
 	}
-	
-	
+
+	public Set<Order> getOrders() {
+		return orders;
+	}
+
+	public void setOrders(Set<Order> orders) {
+		this.orders = orders;
+	}
 
 }
