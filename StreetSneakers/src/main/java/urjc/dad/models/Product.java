@@ -12,17 +12,15 @@ public class Product {
 	private long id;
 	private String name;
 	private String description;
-	private float price;
-	private float size;
+	private double price;
+	private double size;
 	//private Set<Review> reviews;
 	
 	public Product() {
 		
 	}
 	
-	public Product(long id, String name, String description, float price, float size) {
-		super();
-		this.id = id;
+	public Product(String name, String description, float price, float size) {
 		this.name = name;
 		this.description = description;
 		this.price = price;
@@ -53,7 +51,7 @@ public class Product {
 		this.description = description;
 	}
 
-	public float getPrice() {
+	public double getPrice() {
 		return price;
 	}
 
@@ -61,7 +59,7 @@ public class Product {
 		this.price = price;
 	}
 
-	public float getSize() {
+	public double getSize() {
 		return size;
 	}
 
