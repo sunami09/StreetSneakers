@@ -1,9 +1,12 @@
 package urjc.dad.models;
 
+import java.util.Set;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Product {
@@ -14,13 +17,14 @@ public class Product {
 	private String description;
 	private double price;
 	private double size;
-	//private Set<Review> reviews;
+	@OneToMany
+	private Set<Review> reviews;
 	
 	public Product() {
 		
 	}
 	
-	public Product(String name, String description, float price, float size) {
+	public Product(String name, String description, double price, double size) {
 		this.name = name;
 		this.description = description;
 		this.price = price;
@@ -55,7 +59,7 @@ public class Product {
 		return price;
 	}
 
-	public void setPrice(float price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 
@@ -63,11 +67,7 @@ public class Product {
 		return size;
 	}
 
-	public void setSize(float size) {
+	public void setSize(double size) {
 		this.size = size;
 	}
-	
-	
-
-
 }
