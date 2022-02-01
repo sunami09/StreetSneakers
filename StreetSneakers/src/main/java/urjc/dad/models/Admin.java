@@ -16,8 +16,7 @@ public class Admin {
 	private String email;
 	private String password;
 	
-	public Admin(long id, String name, String lateName, String email, String password) {
-		this.id = id;
+	public Admin(String name, String lateName, String email, String password) {
 		this.name = name;
 		this.lateName = lateName;
 		this.email = email;
@@ -54,6 +53,4 @@ public class Admin {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
 }

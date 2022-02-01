@@ -102,7 +102,4 @@ public class User {
 	public void setBankAccount(String bankAccount) {
 		this.bankAccount = bankAccount;
 	}
-	
-	
-
 }
