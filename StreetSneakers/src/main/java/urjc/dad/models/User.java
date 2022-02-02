@@ -22,6 +22,8 @@ public class User {
 	private String bankAccount;
 	@OneToMany
 	private Set<Order> orders;
+	@OneToMany
+	private Set<Product> wishList;
 	
 	public User() {
 	}
