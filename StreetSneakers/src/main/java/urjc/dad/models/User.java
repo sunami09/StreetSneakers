@@ -20,7 +20,7 @@ public class User {
 	private String phone;
 	private String address;
 	private String bankAccount;
-	@OneToMany
+	@OneToMany(mappedBy="user")
 	private Set<Order> orders;
 	@OneToMany
 	private Set<Product> wishList;
