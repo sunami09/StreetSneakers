@@ -2,11 +2,11 @@
 Repositorio para la práctica de Desarrollo de Aplicaciones Distribuida (DAD) de la URJC.
 
 ## Integrantes
-Alberto Martín Amengual:  
+:octocat: Alberto Martín Amengual:  
 :envelope: a.martinam.2017@alumnos.urjc.es  
-Fátima Ezahra Smounat Mahidar:  
+:octocat:Fátima Ezahra Smounat Mahidar:  
     :envelope: fe.smounat.2018@alumnos.urjc.es  
-Raúl Heredia Horcajo:  
+:octocat:Raúl Heredia Horcajo:  
     :envelope: r.heredia.2018@alumnos.urjc.es
 
 
@@ -25,6 +25,7 @@ Raúl Heredia Horcajo:
 `StreetSneakers` es una aplicación web de consulta :newspaper: y venta online :shopping_cart: de las mejores zapatillas :athletic_shoe: del mercado.
 
 ### Funcionalidades
+
 ```
 -Funcionalidades públicas: El usuario al acceder a la página sin registrarse va a poder ver todas las zapatillas
 en venta y además consultar las últimas novedades del mundo de las Sneakers.
@@ -58,4 +59,4 @@ cuentas del sistema.
 -Chat entre todos los usuarios del sistema.
 ```
 ## Licencia
-Este proyecto está bajo la licencia `Apache License 2.0`. Mira el archivo [LICENSE.md](LICENSE.md) para más detalles.
+Este proyecto está bajo la licencia `Apache License 2.0`. Mira el archivo [LICENSE.md](https://github.com/raulhh2000/StreetSneakers/blob/main/LICENSE) para más detalles.
