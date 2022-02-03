@@ -25,7 +25,9 @@ Repositorio para la práctica de Desarrollo de Aplicaciones Distribuida (DAD) de
 `StreetSneakers` es una aplicación web de consulta :newspaper: y venta online :shopping_cart: de las mejores zapatillas :athletic_shoe: del mercado.
 
 ### Funcionalidades
-
+{
+  "wrap_width": 40
+}
 ```
 -Funcionalidades públicas: El usuario al acceder a la página sin registrarse va a poder ver todas las zapatillas
 en venta y además consultar las últimas novedades del mundo de las Sneakers.
